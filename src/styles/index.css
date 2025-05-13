@@ -9,3 +9,73 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.contenedor{
+    background-color: black;
+    height: 60vh;
+    width: 20vh;
+    border-radius: 10px;
+}
+
+.redLightOn {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 0 0 30px red;
+    transition: all 0.3s ease;
+    margin: 1rem auto;
+  }
+  
+  .redLightOff {
+    width: 100px;
+    height: 100px;
+    background-color: #3c0000;
+    border-radius: 50%;
+    box-shadow: none;
+    transition: all 0.3s ease;
+    margin: 1rem auto;
+  }
+
+
+.greenLightOn {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    box-shadow: 0 0 30px green;
+    transition: all 0.3s ease;
+    margin: 1rem auto;
+  }
+  
+  .greenLightOff {
+    width: 100px;
+    height: 100px;
+    background-color: #003300;
+    border-radius: 50%;
+    box-shadow: none;
+    transition: all 0.3s ease;
+    margin: 1rem auto;
+  }
+
+
+
+.yellowLightOn {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 30px yellow;
+    transition: all 0.3s ease;
+    margin: 1rem auto;
+  }
+  
+  .yellowLightOff {
+    width: 100px;
+    height: 100px;
+    background-color: #3c3c00;
+    border-radius: 50%;
+    box-shadow: none;
+    transition: all 0.3s ease;
+    margin: 1rem auto;
+  }
